@@ -25,13 +25,6 @@ const { description, title, navlinks } = useAppConfig()
         :href="nav.link">
         {{ nav.title }}
       </NuxtLink>
-      <!-- {
-        navlinks.map((nav) => (
-          <Link className={'mr-5'} href={nav.link} key={nav.title}>
-            {nav.title}
-          </Link>
-        ))
-      } -->
     </nav>
   </header>
 </template>
